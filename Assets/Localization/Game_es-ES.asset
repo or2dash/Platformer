@@ -19,7 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 28718833664
-    m_Localized: "PRESIONA \"\u2191\" PARA ESCALAR"
+    m_Localized: "PRESIONA \xABW\xBB PARA ESCALAR\nPRESIONA \xABA\xBB PARA RETROCEDER\nPRESIONA
+      \xABD\xBB PARA AVANZAR\nPRESIONA \xABESPACIO\xBB PARA SALTAR"
     m_Metadata:
       m_Items: []
   references:

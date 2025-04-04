@@ -19,7 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 28718833664
-    m_Localized: "PRESS \"\u2191\" TO CLIMB"
+    m_Localized: "PRESS \"W\" TO CLIMB\nPRESS  \"A\" TO GO BACK\nPRESS  \"D\" PER
+      AVAN\xC7AR\nPRESS \"SPACE\" TO MOVE FORWARD"
     m_Metadata:
       m_Items: []
   references:

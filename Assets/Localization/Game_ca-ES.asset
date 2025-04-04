@@ -19,7 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 28718833664
-    m_Localized: "PREM \"\u2191\" PER ESCALAR"
+    m_Localized: "PREM \"W\" PER ESCALAR\nPREM  \"A\" PER RETROCEDIR\nPREM  \"D\"
+      PER AVAN\xC7AR\nPREM \"ESPAI\" PER SALTAR"
     m_Metadata:
       m_Items: []
   references:
