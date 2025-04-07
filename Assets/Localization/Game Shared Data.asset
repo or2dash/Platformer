@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: START
     m_Metadata:
       m_Items: []
+  - m_Id: 2157067410776064
+    m_Key: BOSS
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
