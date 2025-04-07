@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: c141bc02ba7f6ce4f9074cbb978b543c
   - enabled: 1
+    path: Assets/Scenes/Languages.unity
+    guid: a2a51f9ec372a2a448b927ff7e8f550c
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Languages.unity
-    guid: a2a51f9ec372a2a448b927ff7e8f550c
+    path: Assets/Scenes/Ending.unity
+    guid: 6a74c2610c4fa90409f7a3330924a141
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 19ff5d5d76316ff478599ede14096c55, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 4b04be0817f876242a1d987a99548d58, type: 2}
