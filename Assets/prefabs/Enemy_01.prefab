@@ -219,8 +219,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 474
-        y: 105
+        x: 414.28125
+        y: 106.046875
         width: 100
         height: 48
       isBreakpoint: 0
@@ -593,7 +593,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 282
+        x: 234
         y: 101
         width: 100
         height: 48
@@ -717,8 +717,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 648
-        y: 111
+        x: 588.28906
+        y: 110.99219
         width: 100
         height: 32
       isBreakpoint: 0
@@ -778,8 +778,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 61
-        y: 102
+        x: 58.359375
+        y: 107.15625
         width: 100
         height: 32
       isBreakpoint: 0
