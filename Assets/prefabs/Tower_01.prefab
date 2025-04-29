@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1563815372055131597
+--- !u!1 &832562505926343855
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8552136941214870647}
-  - component: {fileID: 2913218034856859331}
-  - component: {fileID: 2602462969843099304}
-  - component: {fileID: 2058926239310613086}
-  - component: {fileID: 4788164793345194498}
-  - component: {fileID: 5472799778348084412}
+  - component: {fileID: 9155183618213645692}
+  - component: {fileID: 8982589110321509130}
+  - component: {fileID: 3344415557856185062}
+  - component: {fileID: 4852564324121143241}
+  - component: {fileID: 1472960187796414702}
+  - component: {fileID: 7269686993487653303}
   m_Layer: 3
   m_Name: Tower_01
   m_TagString: Untagged
@@ -21,28 +21,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8552136941214870647
+--- !u!4 &9155183618213645692
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.18, y: 0, z: 0}
+  m_LocalPosition: {x: 5.29, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2913218034856859331
+--- !u!61 &8982589110321509130
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -81,13 +81,13 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.05267763, y: 0.98923683}
   m_EdgeRadius: 0
---- !u!114 &2602462969843099304
+--- !u!114 &3344415557856185062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -216,17 +216,15 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetPosition
         - HutongGames.PlayMaker.Actions.ecosystem.cinemachine.VirtualCameraSetPriority
         - HutongGames.PlayMaker.Actions.SetAnimatorBool
-        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
         - 
         - 
         - 
-        - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 00000000050000000d0000001100000016000000
-        actionHashCodes: 49491604f6e5be03417758055f913504b2cf1000
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000d00000011000000
+        actionHashCodes: 49491604f6e5be03417758055f913504
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -237,14 +235,6 @@ MonoBehaviour:
           value: {fileID: 0}
         fsmOwnerDefaultParams:
         - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
           gameObject:
             useVariable: 0
             name: 
@@ -305,7 +295,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 6.23
+          value: 27
         - useVariable: 1
           name: 
           tooltip: 
@@ -332,18 +322,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmVector2Params: []
         fsmVector3Params:
         - useVariable: 1
@@ -357,13 +335,13 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - CameraChange
-        byteData: 020000000100000000000000000000000000
+        byteData: 02000000010000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 00000000
         customTypeNames:
         - CinemachineActionHeader
-        paramDataType: 1400000007000000120000001700000013000000140000001c0000000f0000000f0000000f0000000700000001000000010000001400000010000000010000002800000014000000120000001100000001000000070000001400000011000000110000000100000001000000
+        paramDataType: 1400000007000000120000001700000013000000140000001c0000000f0000000f0000000f000000070000000100000001000000140000001000000001000000280000001400000012000000110000000100000007000000
         paramName:
         - gameObject
         - trigger
@@ -387,13 +365,8 @@ MonoBehaviour:
         - Value
         - everyFrame
         - everyFrameOption
-        - gameObject
-        - activate
-        - recursive
-        - resetOnExit
-        - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000010000000000000000000000010000000200000004000000080000000900000002000000000000000a000000000000000300000001000000000000000b0000000c0000000400000001000000020000001000000011000000
-        paramByteDataSize: 000000000400000000000000000000000000000000000000000000000000000000000000000000000400000001000000010000000000000000000000010000000000000000000000000000000000000001000000040000000000000000000000000000000100000001000000
+        paramDataPos: 0000000000000000000000000000000000000000010000000000000000000000010000000200000004000000080000000900000002000000000000000a000000000000000300000001000000000000000b0000000c000000
+        paramByteDataSize: 00000000040000000000000000000000000000000000000000000000000000000000000000000000040000000100000001000000000000000000000001000000000000000000000000000000000000000100000004000000
     - name: Estado 2
       description: 
       colorIndex: 0
@@ -583,13 +556,13 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!114 &2058926239310613086
+--- !u!114 &4852564324121143241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
@@ -744,8 +717,8 @@ MonoBehaviour:
             value: {fileID: 0}
         - ownerOption: 1
           gameObject:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: Player
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -877,7 +850,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 5472799778348084412}
+            value: {fileID: 7269686993487653303}
           TargetTypeName: UnityEngine.BoxCollider2D
           PropertyName: enabled
           BoolParameter:
@@ -985,7 +958,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -994,7 +967,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -1033,8 +1006,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 176.8125
-        y: 260.95312
+        x: 184.53906
+        y: 190.71875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1076,9 +1049,9 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             typeName: UnityEngine.Object
-            value: {fileID: 5472799778348084412}
-          TargetTypeName: UnityEngine.BoxCollider2D
-          PropertyName: enabled
+            value: {fileID: 832562505926343855}
+          TargetTypeName: UnityEngine.GameObject
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -1153,7 +1126,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: System.Boolean
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -1184,7 +1157,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -1193,7 +1166,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -1317,14 +1290,14 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!95 &4788164793345194498
+--- !u!95 &1472960187796414702
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
@@ -1338,13 +1311,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &5472799778348084412
+--- !u!61 &7269686993487653303
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563815372055131597}
+  m_GameObject: {fileID: 832562505926343855}
   m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
@@ -1370,7 +1343,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4, y: 0.48317435}
+  m_Offset: {x: -0.41, y: 0.48317435}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1381,5 +1354,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5992461, y: 0.017814219}
+  m_Size: {x: 0.86, y: 0.017814219}
   m_EdgeRadius: 0
