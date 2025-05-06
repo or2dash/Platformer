@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Climb",
+                    "type": "Button",
+                    "id": "2c66c985-6306-40c9-bda5-bd17b85f6a29",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -302,6 +311,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "158f2580-7ccb-474b-8fde-a4947d07c166",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Climb",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
